@@ -1,0 +1,69 @@
+*body {
+    background: grey;
+    background-size: cover;
+    -webkit-animation: bg-color 5s infintite;
+    animation: bg-color 15s infinite;
+  }
+  
+  @-webkit-keyframes bg-color {
+    14.3% {
+      background-color: #C77DF3;
+    }
+    28.6% {
+      background-color: #8A2BE2;
+    }
+    42.9% {
+      background-color: #0000ff;
+    }
+    57.2% {
+      background-color: #00ff00;
+    }
+    71.5% {
+      background-color: #ffdd00;
+    }
+    85.8% {
+      background-color: #ff7700;
+    }
+    100% {
+      background-color: #FF0000;
+    }
+  
+
+  }
+  
+  @keyframes bg-color {
+    14.3% {
+      background-color: #C77DF3;
+    }
+    28.6% {
+      background-color: #8A2BE2;
+    }
+    42.9% {
+      background-color: #0000ff;
+    }
+    57.2% {
+      background-color: #00ff00;
+    }
+    71.5% {
+      background-color: #ffdd00;
+    }
+    85.8% {
+      background-color: #ff7700;
+    }
+    100% {
+      background-color: #FF0000;
+    }
+  }
+  
+  .Matt{
+    background-image: url(http://www.manuelgraphics.com/wp-content/uploads/2014/08/Verus-Arts-Banner.png);
+      -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text;
+    font-family:Arial;
+    margin-top:100px;
+    margin-left:600px;
+    color:white;
+    font-size:82px;
+      
+    }
+  
